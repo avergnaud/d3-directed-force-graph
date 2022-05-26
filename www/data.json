@@ -1,0 +1,20 @@
+{
+    "nodes": [
+      { "name": "Alice", "color": "red" },
+      { "name": "Bob", "color": "red" },
+      { "name": "Chen", "color": "red" },
+      { "name": "Dawg", "color": "red" },
+      { "name": "Ethan", "color": "red" },
+      { "name": "George", "color": "blue" },
+      { "name": "Frank", "color": "blue" },
+      { "name": "Hanes", "color": "blue" }
+    ],
+    "links": [
+      { "source": "Alice", "target": "Bob" },
+      { "source": "Chen", "target": "Bob" },
+      { "source": "Dawg", "target": "Chen" },
+      { "source": "Hanes", "target": "Frank" },
+      { "source": "Hanes", "target": "George" },
+      { "source": "Dawg", "target": "Ethan" }
+    ]
+  }
